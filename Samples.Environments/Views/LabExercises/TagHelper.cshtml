@@ -8,12 +8,24 @@
 
 <!-- insert tag helper code here -->
 
+<environment include="Development">
+    <div>Warning, you are in DEVELOPMENT!</div>
+</environment>
 
+<environment include="Staging">
+    <div>Caution, you are in STAGING!</div>
+</environment>
+
+<environment include="Production">
+    <div>Welcome to PRODUCTION!</div>
+</environment>
 
 <br />
 <hr />
 <div>
     <b>INSTRUCTIONS:</b><br />
-    <p>Use environment tag helpers to display a unique message based on the environment.<br />
-    The message should be displayed above.</p>
+    <p>
+        Use environment tag helpers to display a unique message based on the environment.<br />
+        The message should be displayed above.
+    </p>
 </div>
