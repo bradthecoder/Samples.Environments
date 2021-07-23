@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Environments", "Samples.Environments\Samples.Environments.csproj", "{EBBA36D6-ECD9-458A-B7DE-8B15EA881A94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5633747D-B11E-4F64-96E9-B4826964818D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		NET Fundamentals - Environments.pdf = NET Fundamentals - Environments.pdf
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBBA36D6-ECD9-458A-B7DE-8B15EA881A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBA36D6-ECD9-458A-B7DE-8B15EA881A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBA36D6-ECD9-458A-B7DE-8B15EA881A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBA36D6-ECD9-458A-B7DE-8B15EA881A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7A6B2CE-184A-4194-B1C2-E2D6436529A0}
+	EndGlobalSection
+EndGlobal

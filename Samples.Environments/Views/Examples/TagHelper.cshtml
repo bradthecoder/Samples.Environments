@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Example Access in View";
+}
+<h3>@ViewData["Title"]</h3>
+
+<environment include="Development">
+    <div>The effective tag is: &lt;environment include="Development"&gt;</div>
+</environment>
+
+<environment exclude="Development">
+    <div>The effective tag is: &lt;environment exclude="Development"&gt;</div>
+</environment>
+
+<environment include="Staging,Development,Staging_2">
+    <div>
+        The effective tag is:
+        &lt;environment include="Staging,Development,Staging_2"&gt;
+    </div>
+</environment>
+
+<environment include="Production">
+    <div>The effective tag is: &lt;environment include="Production"&gt;</div>
+</environment>
